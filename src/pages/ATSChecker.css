@@ -1,0 +1,90 @@
+
+.ats-container {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #172554;
+}
+
+.ats-container > h1 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.ats-container > p {
+  text-align: center;
+  color: #64748b;
+  margin-bottom: 30px;
+}
+
+.ats-card {
+  background: white;
+  padding: 30px;
+  margin-bottom: 25px;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.ats-card h2 {
+  margin-bottom: 20px;
+}
+
+.ats-card label {
+  display: block;
+  margin: 20px 0 8px;
+  font-weight: bold;
+}
+
+.ats-card input[type="file"] {
+  margin: 10px 0;
+  width: 100%;
+}
+
+.ats-card textarea {
+  width: 100%;
+  min-height: 150px;
+  padding: 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 15px;
+  resize: vertical;
+}
+
+.ats-card button {
+  margin-top: 20px;
+  padding: 13px 25px;
+  background: #6d28d9;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.ats-card button:hover {
+  background: #5b21b6;
+}
+
+.ats-card h3 {
+  margin-top: 22px;
+  margin-bottom: 8px;
+}
+
+.ats-card h1 {
+  color: #6d28d9;
+  font-size: 42px;
+  margin: 15px 0;
+}
+
+@media (max-width: 600px) {
+  .ats-container {
+    padding: 12px;
+  }
+
+  .ats-card {
+    padding: 18px;
+  }
+}
